@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <title>Satyam Designers - Contacts</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="/index.html"> <img src="images/SATYAM.png" alt="our main logo" class="logo" ></a>
+        <nav class="navbar">
+            <ul class="navbar-lists">
+                <li class="navbar-item"><a href="/index.html" class="navbar-link home-link">Home</a></li>
+                <li class="navbar-item"><a href="/about.html" class="navbar-link about-link">About</a></li>
+                <li class="navbar-item"><a href="/service.html" class="navbar-link service-link">Services</a></li>
+                <li class="navbar-item"><a href="#portfolio-section" class="navbar-link portfolio-link">Portfolio</a>
+                </li>
+                <li class="navbar-item"><a href="/contact.html" class="navbar-link contact-link">Contact</a></li>
+            </ul>
+        </nav>
+        
+    <div class="mobile-navbar-btn">
+        <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+        <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+      </div>
+    </header>
+
+    <!-- Freelancing Section -->
+
+    <section class="section section-freelance">
+        <div class="overlay"></div>
+        <div class="container">
+          <h2>I am <span>Open</span> to Jobs</h2>
+          <p>Frontend and Backend developement, MEAN and MERN Stack Developer, Web Design, Android Apps, Data Analyst and Networking and Photography.</p>
+          <a href="/contact.html" class="btn">HIRE ME</a>
+        </div>
+      </section>
+
+    <!-- Contact Section -->
+    <section class="section section-contact">
+        <div class="container">
+            <h2 class="common-heading">Contact Me</h2>
+        </div>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109741.0291291919!2d76.69348860616982!3d30.735062644296757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed0be66ec96b%3A0xa5ff67f9527319fe!2sChandigarh!5e0!3m2!1sen!2sin!4v1674646476745!5m2!1sen!2sin"
+            width="600" height="450" style="border:0.1rem solid black; position: relative; left: 35%;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div class="section-contact-main contact-container">
+            <form   action="https://formspree.io/f/mjvdgvya"
+            method="POST">
+                <div class="grid grid-two-column">
+                    <div>
+                        <label for="Username"></label>
+                        <input type="text" name="Username" placeholder="Name" id="username" required autocomplete="off">
+                    </div>
+                    <div>
+                        <label for="Email"></label>
+                        <input type="email" name="Email" placeholder="Email@gmail.com" id="email" required autocomplete="off">
+                    </div>
+                </div>
+                <div>
+                    <label for="Subject"></label>
+                    <input type="text" name="Subject" placeholder="Subject" id="subject" required autocomplete="off">
+                </div>
+                <div>
+                    <label for="testarea"></label>
+                    <textarea name="textarea" id="textarea" placeholder="Message(Please leave your contact details in message for better connectivity)" cols="30" rows="10" required autocomplete="off" minlength="10"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" name="submit" id="submit" class="btn" value="Send Message">
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <footer class="section-footer section footer">
+        <div class="container grid grid-four-column">
+            <div class="f-about">
+                <h3>About</h3>
+                <p>I'm Satyam Singhal. A Full-Stack Developer, Web Designer, Data Analyst, Network
+                    Operations, and Freelancer.</p>
+            </div>
+            <!-- End -->
+            <div class="f-links">
+                <h3>Links</h3>
+
+                <ul>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="/index.html">home</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="/about.html">about</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="/service.html">services</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#portfolio-section">portfolio</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="/contact.html">contact us</a></li>
+                  </ul>
+            </div>
+            <!-- end -->
+            <div class="f-services">
+                <h3>Services</h3>
+
+                <ul>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="/index.html">Web Design</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="/index.html">Web Developement</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="/index.html">Mobile App Developement</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="/index.html">Mean Stack Developement</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="/index.html">Online Classes</a></li>
+                  </ul>
+            </div>
+            <!-- end -->
+            <div class="f-address">
+                <h3>Have a Question ?</h3>
+                <address>
+                    <div>
+                        <p><span><ion-icon name="location-outline"></ion-icon></span> Chandigarh,India</p>
+                    </div>
+
+                    <div>
+                        <p><span><ion-icon name="call-outline"></ion-icon></span>
+                            <a href="tel:+917248748352">+91 724-847-8352</a>
+                        </p>
+                    </div>
+
+                    <div>
+                        <p><span><ion-icon name="mail-outline"></ion-icon></span>
+                            <a href="mailto:satyam.singhal428@gmail.com">info@satyamdesigns.com</a>
+                        </p>
+                    </div>
+                </address>
+            </div>
+            <!-- end -->
+        </div>
+
+        <div class="container">
+            <div class="f-social-icons">
+                <a href="https://github.com/SatyamSinghal108" target="_blank">
+                    <ion-icon class="icons" name="logo-github"></ion-icon>
+                </a>
+                <a href="https://www.linkedin.com/in/satyam-singhal/" target="_blank">
+                    <ion-icon class="icons" name="logo-linkedin"></ion-icon>
+                </a>
+                <a href="https://wa.me/917248748352" target="_blank">
+                    <ion-icon class="icons" name="logo-whatsapp"></ion-icon>
+                </a>
+            </div>
+            <div class="f-credits ">
+                <p>Copyright ©2023 All Rights Reserved | This template is made with by ❤ Satyam Singhal</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
